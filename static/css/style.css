@@ -1,0 +1,28 @@
+
+body {
+    background-color: #1b1b1b !important;
+    font-family: Arial, sans-serif !important;
+    color: rgb(200, 200, 200) !important;
+}
+
+.footer {
+    margin-top: 100px !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgb(0, 4, 41);
+    color: #fff;
+}
+
+.accordion-button {
+    background-color: #212529;
+    color: #fff;
+}
+
+.accordion-body {
+    background-color:#1b1b1b;
+}
+
+.accordion-button:not(.collapsed)::before, ::after {
+    filter: brightness(0%) invert(100%)
+}
